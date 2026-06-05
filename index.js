@@ -1,3 +1,5 @@
 import * as THREE from "three";
 
-const renderer = new THREE.WebGLRenderer();
+const w = window.innerWidth;
+const h = window.innerHeight;
+const renderer = new THREE.WebGLRenderer({ antialias: true });
